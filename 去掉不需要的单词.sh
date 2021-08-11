@@ -17,6 +17,6 @@ eof
 
 # -i 忽略大小写
 # -v 排除后面的字符
-grep -iv "b"
+cat nowcoder.txt | grep -iv "b"
 
 grep -v "B" | grep -v "b"
